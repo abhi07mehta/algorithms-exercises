@@ -32,7 +32,6 @@ function quickSort(nums) {
   }
 
   return [...quickSort(left),pivot,...quickSort(right)]
-
 }
 
 // unit tests
