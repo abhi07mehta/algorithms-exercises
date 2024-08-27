@@ -39,6 +39,7 @@ const merge = (left,right)=>{
   return newArr.concat(left,right);
 }
 
+
 // unit tests
 // do not modify the below code
 test("merge sort", function () {
